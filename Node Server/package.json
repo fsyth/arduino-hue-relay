@@ -1,0 +1,21 @@
+{
+  "name": "arduino-hue-relay",
+  "version": "0.0.1",
+  "description": "Relays dimmer switch voltage from an Arduino to control Phililps Hue lights",
+  "main": "main.js",
+  "dependencies": {
+    "serialport": "^4.0.7",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "arduino",
+    "hue"
+  ],
+  "author": "James Forsyth",
+  "license": "ISC"
+}
